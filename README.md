@@ -13,10 +13,10 @@
 
 ### ✨ to run
 - clone this repo by using git. Change directory, make executable and run the script
-- git clone https://github.com/JaKooLit/Hyprland-v3.1.git 
-- cd Hyprland-v3.1 
-- chmod +x install-hyprland-v3.1.sh 
-- ./install-hyprland-v3.1.sh
+- git clone https://github.com/JaKooLit/Hyprland-v3.5.git 
+- cd Hyprland-v3.5 
+- chmod +x install-hyprland-v3.5.sh 
+- ./install-hyprland-v3.5.sh
 
 ### ✨ for ZSH and OH-MY-ZSH installation
 - do this once installed and script completed; do the following to change the default shell zsh

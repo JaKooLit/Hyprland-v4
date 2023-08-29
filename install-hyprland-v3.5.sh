@@ -555,7 +555,7 @@ if [[ $ROG =~ ^[Yy]$ ]]; then
     done
     printf " Activating ROG services...\n"
     sudo systemctl enable --now supergfxd 2>&1 | tee -a "$LOG"
-    sed -i '23s/#//' config/hypr/configs/Execs.conf
+    sed -i '20s/#//' config/hypr/configs/Execs.conf
 else
     printf "${NOTE} Asus ROG software support not installed..\n"
 fi

@@ -8,8 +8,9 @@
 
 - a. Can modify the packages easily on the install-script
 - b. Dropped the Mc Mojave theme (apple like) in favor with Tokyo-night-theme
-- c. using dunst instead of mako
-- d. Added Tokyo SDDM Theme 
+- c. Using dunst instead of mako
+- d. Added Tokyo SDDM Theme
+- e. new version of _hyprland.conf_ , now config file moved to _.config/hypr/configs/Settings.conf_
 
 ### ✨ to run
 - clone this repo by using git. Change directory, make executable and run the script

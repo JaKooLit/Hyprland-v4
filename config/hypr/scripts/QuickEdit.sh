@@ -9,7 +9,7 @@ hyprDir="$HOME/.config/hypr/configs"
 
 # wofi window config (in %)
 WIDTH=10
-HEIGHT=30
+HEIGHT=20
 
 ## Wofi Command
 wofi_command="wofi --show dmenu \
@@ -19,7 +19,6 @@ wofi_command="wofi --show dmenu \
 			--cache-file=/dev/null \
 			--hide-scroll --no-actions \
 			--matching=fuzzy"
-
 
 menu(){
   printf "1. view Env-variables\n"

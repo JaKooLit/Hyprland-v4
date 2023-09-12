@@ -6,7 +6,7 @@ STYLE="$HOME/.config/hypr/wofi/style.css"
 COLORS="$HOME/.config/hypr/wofi/colors"
 
 # Wofi window config (in %)
-WOFI_WIDTH=20
+WOFI_WIDTH=28
 WOFI_HEIGHT=8
 
 wofi_command="wofi --show dmenu \

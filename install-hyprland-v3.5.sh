@@ -696,7 +696,7 @@ set -e # Exit immediately if a command exits with a non-zero status.
 read -n1 -rep "${CAT} Would you like to copy config and wallpaper files? (y,n)" CFG
 if [[ $CFG =~ ^[Yy]$ ]]; then
   # Check for existing config folders and backup
-  for DIR in cava foot hypr swappy swaylock waybar wlogout wofi; do 
+  for DIR in btop cava foot hypr swappy swaylock waybar wofi; do 
     DIRPATH=~/.config/$DIR
     if [ -d "$DIRPATH" ]; then 
       echo -e "${NOTE} - Config for $DIR found, attempting to back up."
@@ -719,7 +719,6 @@ if [[ $CFG =~ ^[Yy]$ ]]; then
   mkdir -p ~/.config
   cp -r config/hypr ~/.config/ && { echo "Copy completed!"; } || { echo "Error: Failed to copy hypr config files."; exit 1; } 2>&1 | tee -a "$LOG"
   cp -r config/foot ~/.config/ || { echo "Error: Failed to copy foot config files."; exit 1; } 2>&1 | tee -a "$LOG"
-  cp -r config/wlogout ~/.config/ || { echo "Error: Failed to copy wlogout config files."; exit 1; } 2>&1 | tee -a "$LOG"
   cp -r config/btop ~/.config/ || { echo "Error: Failed to copy btop config files."; exit 1; } 2>&1 | tee -a "$LOG"
   cp -r config/cava ~/.config/ || { echo "Error: Failed to copy cava config files."; exit 1; } 2>&1 | tee -a "$LOG"
   cp -r config/swappy ~/.config/ || { echo "Error: Failed to copy swappy config files."; exit 1; } 2>&1 | tee -a "$LOG"

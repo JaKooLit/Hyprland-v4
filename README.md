@@ -12,8 +12,8 @@
 - d. Added Tokyo SDDM Theme 
 - e. Use a wofi-power menu instead of wlogout
 - f. Added the following: 
-        - mission center (windows like task manager) - right click on cpu waybar module
-        - nvtop - right click on temperature waybar module
+    - 1. mission center (windows like task manager) - right click on cpu waybar module
+    - 2. nvtop - right click on temperature waybar module
 
 ### ✨ to run
 > clone this repo by using git. Change directory, make executable and run the script

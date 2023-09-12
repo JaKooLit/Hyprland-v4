@@ -342,12 +342,12 @@
     "on-click-middle": "~/.config/hypr/scripts/Wallpaper.sh swaybg",
    
   },
-    
+  
   "custom/power": {
     "format": "  ",
     "tooltip": false,
-    "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
-    "on-click-right": "~/.config/hypr/scripts/ChangeBlur.sh"
+    "on-click": "$HOME/.config/hypr/scripts/WofiPower.sh",
+    "on-click-right": "$HOME/.config/hypr/scripts/ChangeBlur.sh"
   },
   
   "custom/updater":{

@@ -33,8 +33,7 @@ swaylock-effects
 swww 
 waybar
 wget
-wl-clipboard 
-wlogout
+wl-clipboard
 wofi 
 xdg-user-dirs 
 )
@@ -48,11 +47,11 @@ ffmpegthumbs
 mission-center 
 mousepad 
 mpv 
-nano
 nvtop
 nwg-look-bin
 swaybg
 viewnior
+vim
 wlsunset
 )
 

@@ -18,25 +18,25 @@ margin-bottom: 1px;
 }
 
 #outer-box {
-	padding: 20px;
+	padding: 10px;
 }
 
 #input {
 	background-color: --wofi-color1;
 	/*border: 1px solid --wofi-color3;*/
-	padding: 8px 12px;
+	padding: 4px 6px;
 }
 
 #scroll {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #inner-box {
 }
 
 #img {
-	padding-right: 10px;
+	padding-right: 5px;
 }
 
 #text {
@@ -48,7 +48,7 @@ margin-bottom: 1px;
 }
 
 #entry {
-	padding: 6px;
+	padding: 3px;
 }
 
 #entry:selected {

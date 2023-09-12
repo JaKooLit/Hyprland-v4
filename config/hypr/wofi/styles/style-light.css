@@ -18,19 +18,19 @@ margin-bottom: 1px;
 }
 
 #outer-box {
-	padding: 20px;
+	padding: 10px;
 }
 
 #input {
 	background-color: #e7e7ec;
 	/*border: 1px solid #1e1e2e;*/
-	padding: 8px 12px;
+	padding: 4px 6px;
         color: #585b70
 }
 
 #scroll {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #inner-box {
@@ -38,7 +38,7 @@ margin-bottom: 1px;
 }
 
 #img {
-	padding-right: 10px;
+	padding-right: 5px;
 }
 
 #text {
@@ -50,7 +50,7 @@ margin-bottom: 1px;
 }
 
 #entry {
-	padding: 6px;
+	padding: 3px;
 }
 
 #entry:selected {

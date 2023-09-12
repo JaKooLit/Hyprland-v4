@@ -34,22 +34,22 @@ main() {
     choice=$(menu | ${wofi_command} | cut -d. -f1)
     case $choice in
         1)
-            foot -e nano "$hyprDir/ENVariables.conf"
+            foot -e vim "$hyprDir/ENVariables.conf"
             ;;
         2)
-            foot -e nano "$hyprDir/WindowRules.conf"
+            foot -e vim "$hyprDir/WindowRules.conf"
             ;;
         3)
-            foot -e nano "$hyprDir/Execs.conf"
+            foot -e vim "$hyprDir/Execs.conf"
             ;;
         4)
-            foot -e nano "$hyprDir/Keybinds.conf"
+            foot -e vim "$hyprDir/Keybinds.conf"
             ;;
         5)
-            foot -e nano "$hyprDir/Monitors.conf"
+            foot -e vim "$hyprDir/Monitors.conf"
             ;;
         6)
-            foot -e nano "$hyprDir/Settings.conf"
+            foot -e vim "$hyprDir/Settings.conf"
             ;;
         *)
             ;;

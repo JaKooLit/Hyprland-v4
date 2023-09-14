@@ -4,7 +4,9 @@
 
 ![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
 
-![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/basic-questions2answer.png "Default")
+![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/dual-panel-light-dark-switch.png "Default")
+
+#### you can find more screenshots in the screenshots directory
 
 ### ✨  What's new compared to my V3
 

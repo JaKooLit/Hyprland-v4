@@ -1,15 +1,16 @@
 ## Still in BETA stage
 
-### A modified script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
+### A restructured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
 
 ![alt text](https://github.com/JaKooLit/Hyprland-v3.1/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
 
 ### ✨  What's new compared to my V3
 
--  Can modify the packages easily on the install-hyprland-script
--  Dropped the Mc Mojave theme (apple like) in favor with Tokyo-night-theme
+- restructured Install script
+-  Can modify the packages easily. (install-scripts/00-hypr-pkgs.sh) edit as desired
+-  Added Tokyo-night-theme and TokyoNight-SE icons
 -  using dunst instead of mako
--  Added Tokyo SDDM Theme 
+-  Added Tokyo-Night SDDM Theme 
 -  Use a wofi-power menu instead of wlogout
 -  Added the following: 
     - a. mission center (windows like task manager) - right click on cpu waybar module
@@ -18,10 +19,10 @@
 ### ✨ to run
 > clone this repo by using git. Change directory, make executable and run the script
 ```bash
-git clone https://github.com/JaKooLit/Hyprland-v3.5.git
-cd Hyprland-v3.5
-chmod +x install-hyprland-v3.5.sh
-./install-hyprland-v3.5.sh
+git clone https://github.com/JaKooLit/Hyprland-v4.git
+cd Hyprland-v4
+chmod +x install-hyprland.sh
+./install-hyprland.sh
 ```
 ### ✨ for ZSH and OH-MY-ZSH installation
 > do this once installed and script completed; do the following to change the default shell zsh
@@ -45,4 +46,3 @@ source ~/.zshrc
 - [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty using twice memory compared to foot.
 
 ### Special thanks to:
-- @markob94 for testing of this script and finding initial bugs

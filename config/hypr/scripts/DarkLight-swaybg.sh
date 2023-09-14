@@ -12,10 +12,10 @@ hypr_config_path="$HOME/.config/hypr"
 #dark_icon_theme="Shiny-Dark-Icons"
 
 # Mac-OS Like
-#light_gtk_theme="Tokyonight-Light-B"
-#dark_gtk_theme="Tokyonight-Dark-B"
-#light_icon_theme="TokyoNight-SE"
-#dark_icon_theme="TokyoNight-SE"
+light_gtk_theme="Tokyonight-Light-B"
+dark_gtk_theme="Tokyonight-Dark-B"
+light_icon_theme="TokyoNight-SE"
+dark_icon_theme="TokyoNight-SE"
 
 # Define functions for notifying user and updating symlinks
 notify_user() {

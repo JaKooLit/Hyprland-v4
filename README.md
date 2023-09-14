@@ -1,6 +1,4 @@
-## Still in BETA stage
-
-### A restructured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
+### A re-structured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
 
 ![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
 

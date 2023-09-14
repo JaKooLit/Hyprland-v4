@@ -193,6 +193,7 @@ if [[ $HYP =~ ^[Yy]$ ]]; then
             exec Hyprland
         else
             echo "${ERROR} Hyprland not found. Please make sure Hyprland is installed by checking install logs"
-    fi
+        fi
+    fi    
 fi
 

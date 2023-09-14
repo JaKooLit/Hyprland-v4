@@ -44,5 +44,6 @@ source ~/.zshrc
 ### ✨ Roadmap:
 - [ ] Install zsh and oh-my-zsh without necessary steps above
 - [ ] possibly adding gruvbox themes, cursors, icons
+- [ ] adding vertical waybar 
 - [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty is using twice memory compared to foot.
 

@@ -123,7 +123,7 @@ printf "\n"
 ask_yes_no "Do you want to copy dotfiles?" dots
 printf "\n"
 # Ensuring all in the scripts folder are made executable
-chmod +x scripts/*
+chmod +x install-scripts/*
 
 # Execute AUR helper script based on user choice
 if [ "$aur_helper" == "paru" ]; then
@@ -175,7 +175,7 @@ clear
 
 printf "\n${OK} Yey! Installation Completed.\n"
 printf "\n"
-printf "\n${NOTE} NOTICE TO NVIDIA OWNERS! System will reboot your system!
+printf "\n${NOTE} NOTICE TO NVIDIA OWNERS! System will reboot your system!\n"
 sleep 2
 printf "\n${NOTE} You can start Hyprland by typing Hyprland (IF SDDM is not installed) (note the capital H!).\n"
 printf "\n"

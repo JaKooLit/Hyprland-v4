@@ -43,8 +43,6 @@ source ~/.zshrc
 
 ### ✨ Roadmap:
 - [ ] Install zsh and oh-my-zsh without necessary steps above
-- [ ] gbar in favor of waybar
-- [ ] ags in favor of waybar
-- [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty using twice memory compared to foot.
+- [ ] possibly adding gruvbox themes, cursors, icons
+- [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty is using twice memory compared to foot.
 
-### Special thanks to:

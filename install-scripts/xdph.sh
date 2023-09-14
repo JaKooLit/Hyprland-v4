@@ -74,5 +74,5 @@ install_package() {
         echo "Removing xdg-desktop-portal-lxqt..."
         sudo pacman -R --noconfirm xdg-desktop-portal-lxqt 2>&1 | tee -a $LOG
     fi    
-    print_success " All other XDG-DESKTOP-PORTAL implementations cleared."
-    fi
+
+    clear

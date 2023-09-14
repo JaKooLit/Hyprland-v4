@@ -31,3 +31,5 @@ printf "\n%s - Performing a full system update to avoid issues.... \n" "${NOTE}"
 ISAUR=$(command -v yay || command -v paru)
 
 $ISAUR -Syu --noconfirm 2>&1 | tee -a "$LOG" || { printf "%s - Failed to update system\n" "${ERROR}"; exit 1; }
+
+clear

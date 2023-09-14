@@ -130,3 +130,5 @@ if [[ $response =~ ^[Yy]$ ]]; then
 else
   printf "${NOTE} Skipping nouveau blacklisting.\n"
 fi
+
+clear

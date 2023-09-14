@@ -102,3 +102,5 @@ printf "\n${NOTE} INSTALLING GTK THEMES \n"
         ;;
     esac
   done
+
+  clear

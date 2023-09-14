@@ -115,3 +115,5 @@ install_package() {
       esac
     done
   fi
+
+  clear

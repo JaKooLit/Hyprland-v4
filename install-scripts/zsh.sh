@@ -64,3 +64,5 @@ if [[ $zsh =~ ^[Yy]$ ]]; then
 else
   printf "${NOTE} ZSH wont be installed.\n"
 fi
+
+clear

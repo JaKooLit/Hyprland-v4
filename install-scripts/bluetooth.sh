@@ -54,3 +54,5 @@ printf "${NOTE} Installing Bluetooth Packages...\n"
 
   printf " Activating Bluetooth Services...\n"
   sudo systemctl enable --now bluetooth.service 2>&1 | tee -a "$LOG"
+
+  clear

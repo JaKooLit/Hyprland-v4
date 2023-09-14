@@ -119,3 +119,4 @@ for PKG1 in "${hypr_package[@]}" "${hypr_package_2[@]}" "${fonts[@]}" "${Extra[@
   fi
 done
 
+clear

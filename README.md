@@ -2,7 +2,9 @@
 
 ### A restructured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
 
-![alt text](https://github.com/JaKooLit/Hyprland-v3.1/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
+![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
+
+![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/basic-questions2answer.png "Default")
 
 ### ✨  What's new compared to my V3
 
@@ -19,8 +21,8 @@
 ### ✨ to run
 > clone this repo by using git. Change directory, make executable and run the script
 ```bash
-git clone https://github.com/JaKooLit/Hyprland-v4.git
-cd Hyprland-v4
+git clone https://github.com/JaKooLit/Ja-Hyprland.git
+cd Ja-Hyprland
 chmod +x install-hyprland.sh
 ./install-hyprland.sh
 ```

@@ -15,7 +15,6 @@
 
 "modules-left": [
 	"custom/menu", 
-	//"wlr/workspaces",
 	"hyprland/workspaces",
 	"custom/updater", 
 	"hyprland/window", 

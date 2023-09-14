@@ -13,7 +13,6 @@
 "margin-top": 10,
 
 "modules-left": [
-	//"wlr/workspaces",
 	"hyprland/workspaces", 
 	"cpu", 
 	"temperature", 
@@ -33,7 +32,7 @@
 	"backlight",
 	"bluetooth",
 	"network",
-	//"custom/updater",
+	"custom/updater",
 	"custom/cycle_wall",
 	"custom/lock", 
 	],

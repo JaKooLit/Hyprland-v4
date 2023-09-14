@@ -14,15 +14,13 @@
 "margin-right": 8,
 
 "modules-left": [
-	//"wlr/workspaces",
 	"hyprland/workspaces",
 	"cpu", 
 	"temperature", 
 	"memory",
-	],
 	//"disk",
-	//"custom/weather",
-	//],
+	"custom/weather",
+	],
   
 "modules-center": [
 	"custom/menu", 
@@ -38,9 +36,8 @@
 	"battery", 
 	"backlight",
 	"pulseaudio",
-		//"wireplumber", 
+	//"wireplumber", 
 	"pulseaudio#microphone",
-	//"custom/light_dark", 
 	"keyboard-state",
 	"custom/power",
 	],

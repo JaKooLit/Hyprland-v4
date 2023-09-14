@@ -84,9 +84,9 @@ install_package() {
   [ ! -d "$wayland_sessions_dir" ] && { printf "$CAT - $wayland_sessions_dir not found, creating...\n"; sudo mkdir "$wayland_sessions_dir" 2>&1 | tee -a "$LOG"; }
   sudo cp assets/hyprland.desktop "$wayland_sessions_dir/" 2>&1 | tee -a "$LOG"
     
-  # SDDM-CATPPUCIN theme
-  read -n1 -rep "${CAT} OPTIONAL - Would you like to install SDDM themes? (y/n)" install_sddm_catppuccin
-  if [[ $install_sddm_catppuccin =~ ^[Yy]$ ]]; then
+  # SDDM-themes
+  read -n1 -rep "${CAT} OPTIONAL - Would you like to install SDDM themes? (y/n)" install_sddm_theme
+  if [[ $install_sddm_theme =~ ^[Yy]$ ]]; then
     while true; do
       read -rp "${CAT} Which SDDM Theme you want to install? Catpuccin or Tokyo Night 'c' or 't': " choice 
       case "$choice" in

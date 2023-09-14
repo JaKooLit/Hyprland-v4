@@ -40,6 +40,7 @@ source ~/.zshrc
 ### ✨ Notes
 - super h for launching a small help file
 - super e to view / edit settings, monitor, keybinds, Environment Variables, etc
+- go through the keybinds. There are alot of hidden features like dual panel, change waybar styles, change wallpaper, etc... its too long to put all in the readme!!!
 
 ### ✨ Roadmap:
 - [ ] Install zsh and oh-my-zsh without necessary steps above

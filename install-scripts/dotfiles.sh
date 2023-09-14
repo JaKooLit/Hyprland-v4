@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Determine the directory where the dotfiles.sh script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Change the working directory to the parent directory of the script
+cd "$SCRIPT_DIR/.." || exit 1
+
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"
 ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
@@ -13,7 +19,6 @@ RESET=$(tput sgr0)
 # Set the name of the log file to include the current date and time
 LOG="install-$(date +%d-%H%M%S)_dotfiles.log"
 
-cd ..
 # preparing hyprland.conf keyboard layout
 # Function to detect keyboard layout in an X server environment
 detect_x_layout() {

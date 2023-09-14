@@ -168,7 +168,8 @@ if [ "$zsh" == "Y" ]; then
 fi
 
 if [ "$dots" == "Y" ]; then
-    execute_script "dotfiles.sh"
+    execute_script "dotfiles.sh" "$(pwd)"
+
 fi
 
 clear

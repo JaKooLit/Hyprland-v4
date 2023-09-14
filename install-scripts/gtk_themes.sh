@@ -1,5 +1,25 @@
 #!/bin/bash
 
+# Determine the directory where the script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Change the working directory to the parent directory of the script
+PARENT_DIR="$SCRIPT_DIR/.."
+cd "$PARENT_DIR" || exit 1
+
+# Set some colors for output messages
+OK="$(tput setaf 2)[OK]$(tput sgr0)"
+ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
+NOTE="$(tput setaf 3)[NOTE]$(tput sgr0)"
+WARN="$(tput setaf 166)[WARN]$(tput sgr0)"
+CAT="$(tput setaf 6)[ACTION]$(tput sgr0)"
+ORANGE=$(tput setaf 166)
+YELLOW=$(tput setaf 3)
+RESET=$(tput sgr0)
+
+# Set the name of the log file to include the current date and time
+LOG="install-$(date +%d-%H%M%S)_themes.log"
+
 # Set some colors for output messages
 OK="$(tput setaf 2)[OK]$(tput sgr0)"
 ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
@@ -53,7 +73,6 @@ printf "\n${NOTE} INSTALLING GTK THEMES \n"
         done
         # Shiny-Dark-Icons-themes
         mkdir -p ~/.icons
-        cd ..
         cd assets
         tar -xf Shiny-Dark-Icons.tar.gz -C ~/.icons
         tar -xf Shiny-Light-Icons.tar.gz -C ~/.icons
@@ -70,7 +89,6 @@ printf "\n${NOTE} INSTALLING GTK THEMES \n"
         mkdir -p ~/.icons
         tar -xvjf TokyoNight-SE.tar.bz2 -C ~/.icons
         mkdir -p ~/.themes
-        cd ..
         cp -r -f assets/tokyo-themes/* ~/.themes/
         sed -i '15,18s/#//' config/hypr/scripts/DarkLight.sh
         sed -i '15,18s/#//' config/hypr/scripts/DarkLight-swaybg.sh

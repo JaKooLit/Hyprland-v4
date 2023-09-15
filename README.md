@@ -53,7 +53,7 @@ source ~/.zshrc
 ### ✨ some known issues
 - reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. credit  to @Kenni Fix stated was 
 ```  
- sddm press ctrl+alt+F2 or F3
+ while in sddm press ctrl+alt+F2 or F3
 log into your account
 `lspci -nn`, find the id of your nvidia card
 `ls /dev/dri/by-path` find the matching id

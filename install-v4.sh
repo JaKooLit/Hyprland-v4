@@ -139,6 +139,10 @@ if [ "$nvidia" == "Y" ]; then
     execute_script "nvidia.sh"
 fi
 
+if [ "$nvidia" == "N" ]; then
+    execute_script "hyprland.sh"
+fi
+
 if [ "$gtk_themes" == "Y" ]; then
     execute_script "gtk_themes.sh"
 fi

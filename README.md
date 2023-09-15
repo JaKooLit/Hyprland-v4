@@ -50,3 +50,16 @@ source ~/.zshrc
 - [ ] adding vertical waybar 
 - [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty is using twice memory compared to foot.
 
+### ✨ some known issues
+- reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. Fix stated was 
+```  credit  to @Kenni
+ sddm press ctrl+alt+F2 or F3
+log into your account
+`lspci -nn`, find the id of your nvidia card
+`ls /dev/dri/by-path` find the matching id
+`ls -l /dev/dri/by-path` to check where the symlink points to 
+)
+7. add "env = WLR_DRM_DEVICES,/dev/dri/cardX" to the ENVvariables config (.config/hypr/configs/ENVariables.conf)  ; X being where the symlink of the gpu points to
+```
+
+more info from the hyprland wiki [`Hyprland Wiki Link`](https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop)

@@ -51,8 +51,8 @@ source ~/.zshrc
 - [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty is using twice memory compared to foot.
 
 ### ✨ some known issues
-- reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. Fix stated was 
-```  credit  to @Kenni
+- reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. credit  to @Kenni Fix stated was 
+```  
  sddm press ctrl+alt+F2 or F3
 log into your account
 `lspci -nn`, find the id of your nvidia card

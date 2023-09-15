@@ -6,6 +6,8 @@
 
 #### you can find more screenshots in the screenshots directory
 
+#### youtube video showcase: [`Youtube Link`](https://youtu.be/otda1nXJ5Dg?si=Wbb8eg-u3Y-tDnDQ)
+
 ### ✨  What's new compared to my V3
 
 - restructured Install script

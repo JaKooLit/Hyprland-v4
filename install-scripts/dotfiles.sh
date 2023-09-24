@@ -98,6 +98,12 @@ printf "${NOTE} copying dotfiles\n"
   ln -sf "$HOME/.config/hypr/waybar/configs/config-default" "$HOME/.config/hypr/waybar/config" && \
   ln -sf "$HOME/.config/hypr/waybar/style/dark-styles/style-dark-tokyo.css" "$HOME/.config/hypr/waybar/style.css" && \
 
+  # symlinks for dunst
+  ln -sf "$HOME/.config/hypr/dunst/styles/dunstrc-dark" "$HOME/.config/hypr/dunst/dunstrc" && \
+
+  # symlink for wofi
+  ln -sf "$HOME/.config/hypr/wofi/styles/style-dark.css" "$HOME/.config/hypr/wofi/style.css" && \
+  
   # Set some files as executable
   chmod +x ~/.config/hypr/scripts/* 2>&1 | tee -a "$LOG"
 

@@ -10,14 +10,14 @@
 
 ### 🆕  What's new compared to my V3
 - restructured Install script
--  Can modify the packages easily. (install-scripts/00-hypr-pkgs.sh) edit as desired
--  Added Tokyo-night-theme and TokyoNight-SE icons
--  using dunst instead of mako
--  Added Tokyo-Night SDDM Theme 
--  Use a wofi-power menu instead of wlogout
--  Added the following: 
-    - a. mission center (windows like task manager) - right click on cpu waybar module
-    - b. nvtop - right click on temperature waybar module
+- Can modify the packages easily. (install-scripts/00-hypr-pkgs.sh) edit as desired
+- Added Tokyo-night-theme and TokyoNight-SE icons
+- using dunst instead of mako
+- Added Tokyo-Night SDDM Theme 
+- Use a wofi-power menu instead of wlogout
+- Added the following: 
+   - a. mission center (windows like task manager) - right click on cpu waybar module
+   - b. nvtop - right click on temperature waybar module
 
 ### ✨ to run
 > clone this repo by using git. Change directory, make executable and run the script

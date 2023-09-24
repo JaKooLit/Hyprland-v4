@@ -4,12 +4,11 @@
 
 ![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/dual-panel-light-dark-switch.png "Default")
 
-#### you can find more screenshots in the screenshots directory
+### 📷 you can find more screenshots in the screenshots directory
 
-#### youtube video showcase: [`Youtube Link`](https://youtu.be/otda1nXJ5Dg?si=Wbb8eg-u3Y-tDnDQ)
+### 📽️ youtube video showcase: [`Youtube Link`](https://youtu.be/otda1nXJ5Dg?si=Wbb8eg-u3Y-tDnDQ)
 
-### ✨  What's new compared to my V3
-
+### 🆕  What's new compared to my V3
 - restructured Install script
 -  Can modify the packages easily. (install-scripts/00-hypr-pkgs.sh) edit as desired
 -  Added Tokyo-night-theme and TokyoNight-SE icons
@@ -39,18 +38,18 @@ source ~/.zshrc
 - by default gnzh theme is installed. You can find more themes from this [`OH-MY-ZSH-THEMES`](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 - to change the theme, edit ~/.zshrc ZSH_THEME="desired theme"
 
-### ✨ Notes
+### 📒 Notes
 - super h for launching a small help file
 - super e to view / edit settings, monitor, keybinds, Environment Variables, etc
 - go through the keybinds. There are alot of hidden features like dual panel, change waybar styles, change wallpaper, etc... its too long to put all in the readme!!!
 
-### ✨ Roadmap:
+### 🛣️ Roadmap:
 - [ ] Install zsh and oh-my-zsh without necessary steps above
 - [ ] possibly adding gruvbox themes, cursors, icons
 - [ ] adding vertical waybar 
 - [X] ~~Use kitty in favor of foot~~ - Dropped the idea of kitty. Kitty is using twice memory compared to foot.
 
-### ✨ some known issues
+### ⚠️ some known issues
 - reports from members of my discord, states that some users of nvidia are getting stuck on sddm login. credit  to @Kenni Fix stated was 
 ```  
  while in sddm press ctrl+alt+F2 or F3
@@ -61,5 +60,4 @@ log into your account
 )
 7. add "env = WLR_DRM_DEVICES,/dev/dri/cardX" to the ENVvariables config (.config/hypr/configs/ENVariables.conf)  ; X being where the symlink of the gpu points to
 ```
-
-more info from the hyprland wiki [`Hyprland Wiki Link`](https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop)
+- more info from the hyprland wiki [`Hyprland Wiki Link`](https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop)

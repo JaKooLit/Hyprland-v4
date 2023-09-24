@@ -62,15 +62,6 @@ done
 
 install_package "hyprland-nvidia-git" 2>&1 | tee -a "$LOG"
 
-printf "\n"
-printf "${YELLOW} Installing non-Nvidia Hyprland...\n"
-for hyprnvi in hyprland-nvidia-git hyprland-nvidia hyprland-nvidia-hidpi-git; do
-  sudo pacman -R --noconfirm "$hyprnvi" 2>/dev/null | tee -a "$LOG" || true
-done
-for HYP2 in hyprland; do
-  install_package "$HYP2" 2>&1 | tee -a "$LOG"
-done
-
 # Install additional Nvidia packages
 printf "${YELLOW} Installing Nvidia packages...\n"
 for krnl in $(cat /usr/lib/modules/*/pkgbase); do

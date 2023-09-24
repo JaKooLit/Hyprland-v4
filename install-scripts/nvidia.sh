@@ -52,14 +52,13 @@ if pacman -Qs hyprland > /dev/null; then
   read -n1 -rp "${CAT} Hyprland detected. Would you like to remove and install hyprland-nvidia instead? (y/n) " nvidia_hypr
   echo
   if [[ $nvidia_hypr =~ ^[Yy]$ ]]; then
-    sudo pacman -R --noconfirm hyprland 2>/dev/null | tee -a "$LOG" || true
+    for hyprnvi in hyprland hyprland-nvidia hyprland-nvidia-hidpi-git; do
+    sudo pacman -R --noconfirm "$hyprnvi" 2>/dev/null | tee -a "$LOG" || true
+    done
   fi
 fi
 
-for hyprnvi in hyprland hyprland-nvidia hyprland-nvidia-hidpi-git; do
-  sudo pacman -R --noconfirm "$hyprnvi" 2>/dev/null | tee -a "$LOG" || true
-done
-
+# install hyprland-nvidia-git
 install_package "hyprland-nvidia-git" 2>&1 | tee -a "$LOG"
 
 # Install additional Nvidia packages

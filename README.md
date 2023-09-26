@@ -19,6 +19,11 @@
    - a. mission center (windows like task manager) - right click on cpu waybar module
    - b. nvtop - right click on temperature waybar module
 
+
+### 👀 NVidia GPU Owners.
+- By default, nvidia-dkms will be installed. and only supports GTX 900 and newer. If required to install older driver, edit the nvidia.sh in scripts-folder
+
+
 ### ✨ to run
 > clone this repo by using git. Change directory, make executable and run the script
 ```bash

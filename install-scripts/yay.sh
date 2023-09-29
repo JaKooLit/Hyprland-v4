@@ -14,6 +14,7 @@ RESET=$(tput sgr0)
 LOG="install-$(date +%d-%H%M%S)_yay.log"
 
 ISAUR=$(command -v yay || command -v paru)
+
 if [ -n "$ISAUR" ]; then
   printf "\n%s - AUR helper yay was located, moving on.\n" "${OK}"
 else

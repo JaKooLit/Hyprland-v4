@@ -1,5 +1,9 @@
 ## Changelogs
 
+## 30-Sep-2023
+- replaced missioncenter with gnome-system-monitor
+- added some wallpaper
+
 ## 27-Sep-2023
 - remove auto start of portal-hyprland-hyprland
 - removal of Virtual-1 monitor in Monitors.conf

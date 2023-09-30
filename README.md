@@ -16,7 +16,7 @@
 - Added Tokyo-Night SDDM Theme 
 - Use a wofi-power menu instead of wlogout
 - Added the following: 
-   - a. mission center (windows like task manager) - right click on cpu waybar module
+   - a. gnome-system-monitor - right click on cpu waybar module
    - b. nvtop - right click on temperature waybar module
 
 

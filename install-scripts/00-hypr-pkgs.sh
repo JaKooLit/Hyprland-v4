@@ -45,7 +45,7 @@ brightnessctl
 btop
 cava
 ffmpegthumbs
-mission-center 
+gnome-system-monitor
 mousepad 
 mpv 
 nvtop

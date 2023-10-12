@@ -44,7 +44,7 @@ install_package() {
 
 # Hyprland
 
-printf "${NOTE} Installing Bluetooth Packages...\n"
+printf "${NOTE} Installing Hyprland Packages...\n"
  for HYPR in "${hypr[@]}"; do
    install_package "$HYPR" 2>&1 | tee -a "$LOG"
    [ $? -ne 0 ] && { echo -e "\e[1A\e[K${ERROR} - $HYPR install had failed, please check the install.log"; exit 1; }

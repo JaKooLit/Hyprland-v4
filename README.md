@@ -8,6 +8,11 @@
 
 ### 📽️ youtube video showcase: [`Youtube Link`](https://youtu.be/otda1nXJ5Dg?si=Wbb8eg-u3Y-tDnDQ)
 
+
+
+### ✨ A video walk through my dotfiles[`Link`](https://youtu.be/fO-RBHvVEcc?si=ijqxxnq_DLiyO8xb)
+
+
 ### 🆕  What's new compared to my V3
 - restructured Install script
 - Can modify the packages easily. (install-scripts/00-hypr-pkgs.sh) edit as desired

@@ -39,7 +39,7 @@
     "tooltip": true,
     "tooltip-format": "{timeTo} {power}w",
     "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
-    "on-click-right": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+    "on-click-right": "$HOME/.config/hypr/scripts/WofiPower.sh",
   },
     
   "bluetooth": {
@@ -75,7 +75,7 @@
   },
   
   "clock": {
-    //"format": "{:%I:%M %p}",
+    //"format": " {:%I:%M %p}",
     "format": " {:%H:%M}",
     "format-alt": " {:%H:%M   %Y, %d %B, %A}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",

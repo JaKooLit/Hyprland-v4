@@ -40,24 +40,24 @@ install_package() {
 
 # XDG-DESKTOP-PORTAL-HYPRLAND
 
-  for xdph in xdg-desktop-portal-hyprland; do
-    install_package "$xdph" 2>&1 | tee -a "$LOG"
-        if [ $? -ne 0 ]; then
-        echo -e "\e[1A\e[K${ERROR} - $xdph install had failed, please check the install.log"
-        exit 1
-        fi
-    done
+for xdph in xdg-desktop-portal-hyprland; do
+  install_package "$xdph" 2>&1 | tee -a "$LOG"
+    if [ $? -ne 0 ]; then
+    echo -e "\e[1A\e[K${ERROR} - $xdph install had failed, please check the install.log"
+    exit 1
+    fi
+done
     
-   printf "${NOTE} Checking for other other XDG-Desktop-Portal-Implementations....\n"
-    sleep 1
-    printf "\n"
-    printf "${NOTE} XDG-desktop-portal-KDE (if installed) should be manually disabled or removed! I cant remove it... sorry...\n"
-    read -n1 -rep "${CAT} Would you like me to try to remove other XDG-Desktop-Portal-Implementations? (y/n)" XDPH1
-    sleep 1
-    if [[ $XDPH1 =~ ^[Yy]$ ]]; then
-        # Clean out other portals
+printf "${NOTE} Checking for other XDG-Desktop-Portal-Implementations....\n"
+sleep 1
+printf "\n"
+printf "${NOTE} XDG-desktop-portal-KDE (if installed) should be manually disabled or removed! I can't remove it... sorry...\n"
+read -n1 -rep "${CAT} Would you like me to try to remove other XDG-Desktop-Portal-Implementations? (y/n)" XDPH1
+sleep 1
+if [[ $XDPH1 =~ ^[Yy]$ ]]; then
+    # Clean out other portals
     printf "${NOTE} Clearing any other xdg-desktop-portal implementations...\n"
-        # Check if packages are installed and uninstall if present
+    # Check if packages are installed and uninstall if present
     if pacman -Qs xdg-desktop-portal-gnome > /dev/null ; then
         echo "Removing xdg-desktop-portal-gnome..."
         sudo pacman -R --noconfirm xdg-desktop-portal-gnome 2>&1 | tee -a $LOG
@@ -73,6 +73,7 @@ install_package() {
     if pacman -Qs xdg-desktop-portal-lxqt > /dev/null ; then
         echo "Removing xdg-desktop-portal-lxqt..."
         sudo pacman -R --noconfirm xdg-desktop-portal-lxqt 2>&1 | tee -a $LOG
-    fi    
+    fi
+fi
 
-    clear
+clear

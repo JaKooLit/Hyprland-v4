@@ -71,3 +71,7 @@ log into your account
 7. add "env = WLR_DRM_DEVICES,/dev/dri/cardX" to the ENVvariables config (.config/hypr/configs/ENVariables.conf)  ; X being where the symlink of the gpu points to
 ```
 - more info from the hyprland wiki [`Hyprland Wiki Link`](https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop)
+
+
+### 👍👍👍 Thanks and Credits!
+- shout out to CooSee from Gentoo forums for the nice rainbow borders

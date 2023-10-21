@@ -62,7 +62,7 @@ noto-fonts-emoji
 otf-font-awesome 
 otf-font-awesome-4 
 ttf-droid 
-ttf-fantasque-sans-mono 
+ttf-fira-code
 ttf-jetbrains-mono 
 ttf-jetbrains-mono-nerd 
 )

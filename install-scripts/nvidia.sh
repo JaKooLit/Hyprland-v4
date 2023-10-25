@@ -101,14 +101,14 @@ fi
 # Check if /etc/default/grub exists
 if [ -f /etc/default/grub ]; then
     # Check if nvidia_drm.modeset=1 is already present
-    if ! sudo grep -q "nvidia_drm.modeset=1" /etc/default/grub; then
+    if ! sudo grep -q "nvidia-drm.modeset=1" /etc/default/grub; then
         # Add nvidia_drm.modeset=1 to GRUB_CMDLINE_LINUX_DEFAULT
-        sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=".*\)"/\1 nvidia_drm.modeset=1"/' /etc/default/grub
+        sudo sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=".*\)"/\1 nvidia-drm.modeset=1"/' /etc/default/grub
         # Regenerate GRUB configuration
         sudo grub-mkconfig -o /boot/grub/grub.cfg
-        echo "nvidia_drm.modeset=1 added to /etc/default/grub"
+        echo "nvidia-drm.modeset=1 added to /etc/default/grub"
     else
-        echo "nvidia_drm.modeset=1 is already present in /etc/default/grub"
+        echo "nvidia-drm.modeset=1 is already present in /etc/default/grub"
     fi
 else
     echo "/etc/default/grub does not exist"

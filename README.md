@@ -1,3 +1,6 @@
+# NOTE! I HAVE MOVED to new ARCH-HYPRLAND install script REPO as part of my install script clean up
+- [`Link`](https://github.com/JaKooLit/Arch-Hyprland)
+
 ### A re-structured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
 
 ![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
@@ -86,3 +89,5 @@ log into your account
 - You can also buy me Coffee Through ko-fi.com 🤩
 
 <a href='https://ko-fi.com/jakoolit' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
+

@@ -1,13 +1,3 @@
-<div align="center">
-
-# 💌 ** JaKooLit's Arch Hyprland Install Script ** 💌
-
-![GitHub Repo stars](https://img.shields.io/github/stars/JaKooLit/Hyprland-v4?style=for-the-badge&color=cba6f7) ![GitHub last commit](https://img.shields.io/github/last-commit/JaKooLit/Hyprland-v4?style=for-the-badge&color=b4befe) ![GitHub repo size](https://img.shields.io/github/repo-size/JaKooLit/Hyprland-v4?style=for-the-badge&color=cba6f7)
-
-
-<br/>
-</div>
-
 ### A re-structured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
 
 ![alt text](https://github.com/JaKooLit/Ja-Hyprland/blob/main/screenshots/Sample-Tokyo-waybar.png "Default")
@@ -31,7 +21,8 @@
 - Added Tokyo-Night SDDM Theme 
 - Use a wofi-power menu instead of wlogout
 - Added the following: 
-   - a. gnome-system-monitor - right click on cpu waybar module
+   - a. gnome-system-monitor
+   - right click on cpu waybar module
    - b. nvtop - right click on temperature waybar module
 
 

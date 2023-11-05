@@ -3,10 +3,14 @@
 clear
 
 # Welcome message
-echo "$(tput setaf 6)Welcome to JaKooLit's Arch-Hyprland Install Script!$(tput sgr0)"
+echo "$(tput setaf 6)Welcome to JaKooLit's Arch-Hyprland-v4 Install Script!$(tput sgr0)"
 echo
 echo "$(tput setaf 3)NOTE: You will be required to answer some questions during the installation! $(tput sgr0)"
 echo
+
+printf "\n$(tput setaf 166) NOTE! This script and dots a bit outdated! Kindly use newer Arch-Hyprland script instead. Link on the Readme! Thanks \n"
+
+sleep 20
 
 read -p "$(tput setaf 6)Would you like to proceed? (y/n): $(tput sgr0)" proceed
 

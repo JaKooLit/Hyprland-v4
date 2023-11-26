@@ -2,16 +2,58 @@
 
 clear
 
+# Set some colors for output messages
+OK="$(tput setaf 2)[OK]$(tput sgr0)"
+ERROR="$(tput setaf 1)[ERROR]$(tput sgr0)"
+NOTE="$(tput setaf 3)[NOTE]$(tput sgr0)"
+WARN="$(tput setaf 166)[WARN]$(tput sgr0)"
+CAT="$(tput setaf 6)[ACTION]$(tput sgr0)"
+ORANGE=$(tput setaf 166)
+YELLOW=$(tput setaf 3)
+RESET=$(tput sgr0)
+
+# Function to display ASCII art
+display_hello() {
+    cat << "EOF"
+  _   _      _ _         __        __         _     _ _ 
+ | | | | ___| | | ___    \ \      / /__  _ __| | __| | |
+ | |_| |/ _ \ | |/ _ \    \ \ /\ / / _ \| '__| |/ _` | |
+ |  _  |  __/ | | (_) |    \ V  V / (_) | |  | | (_| |_|
+ |_| |_|\___|_|_|\___( )    \_/\_/ \___/|_|  |_|\__,_(_)
+                     |/                                 
+EOF
+}
+
+# Display ASCII art
+display_hello
+
+# Loop until valid input is provided
+while true; do
+    read -p "${NOTE} Please note that I have now moved to a newer install script. Would you like to exit and download the new script? (y/n): " initial_choice
+
+    # Check user input
+    if [[ $initial_choice == "y" || $initial_choice == "Y" ]]; then
+        echo "Exiting and downloading the new script..."
+        cd
+        git clone https://github.com/JaKooLit/Arch-Hyprland.git
+        cd Arch-Hyprland
+        chmod +x install.sh
+        ./install.sh
+        break
+    elif [[ $initial_choice == "n" || $initial_choice == "N" ]]; then
+        echo "Continuing to install Arch Hyprland using this script..."
+        break
+    else
+        echo "Invalid choice. Please enter 'y' or 'n'."
+    fi
+done
+
+
 # Welcome message
 echo "$(tput setaf 6)Welcome to JaKooLit's Arch-Hyprland-v4 Install Script!$(tput sgr0)"
 echo
 echo "$(tput setaf 3)NOTE: You will be required to answer some questions during the installation! $(tput sgr0)"
 echo
-
-printf "\n$(tput setaf 166) NOTE! This script and dots a bit outdated! Kindly use newer Arch-Hyprland script instead. Link on the Readme! Thanks \n"
-
-sleep 20
-
 read -p "$(tput setaf 6)Would you like to proceed? (y/n): $(tput sgr0)" proceed
 
 if [ "$proceed" != "y" ]; then

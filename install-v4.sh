@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+# Check if running as root. If root, script will exit
+if [[ $EUID -eq 0 ]]; then
+    echo "This script should not be executed as root! Exiting......."
+    exit 1
+fi
+
 clear
 
 # Set some colors for output messages
@@ -29,6 +36,7 @@ display_hello
 
 # Loop until valid input is provided
 while true; do
+    printf "${WARN} - I stop supporting this install script!!!!!\n\n"
     read -p "${NOTE} Please note that I have now moved to a newer install script. Would you like to exit and download the new script? (y/n): " initial_choice
 
     # Check user input

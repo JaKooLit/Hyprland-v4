@@ -1,3 +1,6 @@
+03-June-2024
+- Archived in favor of https://github.com/JaKooLit/Arch-Hyprland
+
 # ATTENTION. Arch Hyprland Install Script has been moved to a newer and updated Script. [`CLICK`](https://github.com/JaKooLit/Arch-Hyprland) here for the link.
 
 ### A re-structured install script of my Hyprland-v3 [`Link`](https://github.com/JaKooLit/Hyprland-v3)
